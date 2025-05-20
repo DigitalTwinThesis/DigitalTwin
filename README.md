@@ -2,7 +2,10 @@
 Connected Digital Twin for Robotic Battery Assembly and Disassembly
 Authors: Alberto Prats Ferrandis and Selene Delgado Pastor.
 
-This repository contains the files necessary to set up and execute the developed digital twin for robotic battery assembly and disassembly.
+This repository contains the files necessary to set up and execute the developed digital twin for robotic battery assembly and disassembly. This code has been developed for a thesis project.
+
+This project presents the design and implementation of a digital twin-based user interface for the real-time control of a UR10e robotic arm in an industrial assembly context, specifically targeting robotic cell box assembly and disassembly. The user interface, developed using the PyQt6 framework and integrated through RoboDK, enables manual and automated control, speed and gripper adjustments, and visual feedback of the
+robotic process. This work aims to show the benefits of the implementation of digital twins, and ultimately demonstrates a practical and flexible solution for enhancing human-robot interaction in smart manufacturing, bringing the feasibility and effectiveness of combining digital twins with the industry, ensuring optimal control, advanced user interface design, and the ability to control complex systems.
 
 The dt_ui.py file reads all of the files included here, so do not change their names or the UI might not function as intended.
 The content is the following:
