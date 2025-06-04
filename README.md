@@ -10,7 +10,7 @@ This project presents the design and implementation of a digital twin-based user
 The ui.py file reads all of the files included here, so do not change their names or the UI might not function as intended.
 The content is the following:
 - ui.py :    Main Python file that contains the UI, open the file in VS Code and execute in terminal, it will open RoboDK and the station automatically, given that you have a valid RoboDK license. Execute this file to use the UI, has a manual robot control in addition to the assembly and disassembly processes.
-- robotcode.py :     Python file containing the work of Paula Bolivar Perez and Aitor Sagarna Zabala, controls the robot movement to perform the assembly and disassembly processes. Contains the vision system. Execute this file to use the simple terminal-based execution of the assembly and disassembly processes. Does not have manual robot control.
+- robotcode.py :     Python file written by Paula Bolivar Perez and Aitor Sagarna Zabala, controls the robot movement to perform the assembly and disassembly processes. Contains the vision system. Execute this file to use the simple terminal-based execution of the assembly and disassembly processes. Does not have manual robot control.
 - gripper.py :      Python file containing the code that controls both the virtual and physical grippers. Executing this code does not perform any actions.
 - Gripper .urp and .script files :    Gripper control files created by the UI to send to the UR10e robot through socket, they can be deleted, as the UI checks for their existance and creates them again if they are not found.
 - reset_station.png :    Image of how the Robotic station should look before the program is started. The image is used by the UI file.
